@@ -1,0 +1,21 @@
+# STM32CubeIDE Build Folders
+Debug/
+Release/
+build/
+bin/
+
+# IDE Settings 
+.settings/
+.mxproject
+.project
+.cproject
+
+# Temporary Files
+*.tmp
+*.bak
+*.su
+*.o
+*.elf
+*.bin
+*.hex
+*.map
