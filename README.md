@@ -25,3 +25,6 @@ My implementation of a digital reflex analyzer. Developed in bare-metal C using 
 3.  `File > Open Projects from File System`.
 4.  Flash to any Nucleo-32 board.
 5.  Open Serial Monitor (115200/8/N/1).
+6.  Push the button to silence the breathing green LED.
+7.  Wait until the LED turns on and push the button again as fast as you can.
+8.  Observe the game result on the serial console.
