@@ -71,8 +71,6 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_TIM3_Init(void);
-
-
 /* USER CODE BEGIN PFP */
 void Breathing_Effect(void);
 /* USER CODE END PFP */
@@ -143,6 +141,7 @@ int main(void) {
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1) {
+		/* USER CODE END WHILE */
 		switch (currentState) {
 
 		case STATE_IDLE:
@@ -193,8 +192,10 @@ int main(void) {
 			currentState = STATE_IDLE;
 			break;
 		}
+		/* USER CODE BEGIN 3 */
 	}
 	/* USER CODE END 3 */
+
 }
 
 /**
